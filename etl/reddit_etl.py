@@ -12,8 +12,8 @@ REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
 REDDIT_USER_AGENT = os.getenv("REDDIT_USER_AGENT")
 SUBREDDIT_NAME = os.getenv("SUBREDDIT", "dataengineering")
 FETCH_LIMIT = int(os.getenv("FETCH_LIMIT", "20"))
-
 DB_PATH = os.getenv("DB_PATH", "sqlite:///reddit_data.db")
+
 #config
 
 
