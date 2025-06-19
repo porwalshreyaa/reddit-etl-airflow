@@ -41,7 +41,6 @@ https://hub.docker.com/r/porwalshreya/reddit-etl
 
 Run via Docker
 ```
-docker compose down --volumes --remove-orphans
 docker compose build --no-cache
 docker compose up
 ```
